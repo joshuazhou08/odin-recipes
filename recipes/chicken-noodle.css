@@ -1,0 +1,24 @@
+.center{
+    display: block;
+    text-align: center;
+}
+.blue{
+    background-color: blue;
+    color: white;
+}    back
+ul{
+    text-align: center;
+}
+.image.center{
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 400px;
+}
+body {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1in;
+    border-color: black;
+}

@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+    background-color: purple;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    display: block;
+    text-align: center;
+}
