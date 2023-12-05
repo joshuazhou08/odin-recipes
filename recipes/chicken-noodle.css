@@ -1,24 +1,64 @@
-.center{
+.main{
+    box-sizing: border-box;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    border: 3px solid black;
+}
+h1,h2{
+    text-align: center;
+    background-color: purple;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid black
+}
+h2{
+    font-size: 17px;
+    width: 150px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.image{
+    width: 300px;
+    height: 350px;
+    margin: 10px auto;
+    display: block;
+    border: 3px solid rebeccapurple;
+}
+a{
     display: block;
     text-align: center;
 }
-.blue{
-    background-color: blue;
-    color: white;
-}    back
-ul{
+.right-align{
+    text-align: right;
+    margin: 20px
+}
+.body-text{
     text-align: center;
+    font-size: 13px;
+    margin: 10px 15px;
 }
-.image.center{
-    margin-left: auto;
-    margin-right: auto;
-    height: 500px;
-    width: 400px;
+.link{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    padding: 5px;
 }
-body {
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1in;
-    border-color: black;
+ul{
+    width: 200px;
+    margin: 10px auto;
+}
+:visited{
+    color: rgb(46, 23, 69);
+}
+.home{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 13px;
+    margin-bottom: 10px;
 }
